@@ -1,0 +1,10 @@
+"Discipline","count_discip_response","count_data_yes","percent_data_yes","count_used","percent_used"
+"ENGI",8,5,0.625,1,0.2
+"MEDI",6,5,0.833333333333333,4,0.8
+"MATE",3,3,1,0,0
+"COMP",4,4,1,2,0.5
+"BIOC",4,2,0.5,1,0.5
+"ENVI",2,2,1,2,1
+"EART",5,4,0.8,0,0
+"CHEM",10,9,0.9,2,0.222222222222222
+"PHYS",6,5,0.833333333333333,1,0.2
