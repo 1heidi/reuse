@@ -1,11 +1,10 @@
 ## STEP 1: Data Exists
 ##Purpose: Determine Yes/No data by discipline
-##Package(s): tidyverse, sjPlot
+##Package(s): tidyverse
 ##Input file(s): All_Results_All_Answers_R_2019-02-15.csv
 ##Output file(s):
 
 ##library(tidyverse)
-##library(sjPlot)
 
 all <- read.csv("All_Results_All_Answers_R_2019-02-15.csv", na.strings=c(""," ","NA"), stringsAsFactors=FALSE)
 
