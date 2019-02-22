@@ -1,8 +1,8 @@
-## STEP 1: Data Exists
-##Purpose: Determine Yes/No data by discipline
+## STEP 1: Summary Across Disciplines
+##Purpose: Determine counts of data w/in articles and used by discipline
 ##Package(s): tidyverse
 ##Input file(s): All_Results_All_Answers_R_2019-02-15.csv
-##Output file(s):
+##Output file(s): overall_summary.csv
 
 ##library(tidyverse)
 
@@ -20,4 +20,4 @@ all_data <- all %>%
 
 summary <- unique(select(all_data, Discipline, count_discip_response, count_data_yes, percent_data_yes, count_used, percent_used))
 
-write.csv(summary, "Table1.csv", row.names = FALSE)
+write.csv(summary, "overall_summary.csv", row.names = FALSE)
