@@ -249,5 +249,5 @@ Running under: macOS Catalina 10.15.7
 * **Formally:** CC0 to facilitate ease-of-use
 * **Informally:** Please cite this dataset regardless. It matters to us, and provenance is important. The citation is:
 
-* Imker, H.J., Luong, H., Mischo, W.H., Schlembach, M.C., Wiley, C.A. (2021) Data for: An Examination of Data Reuse Practices within Highly Cited Articles of Faculty at a Research University. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB_XXXXX_V1
+* Imker, H.J., Luong, H., Mischo, W.H., Schlembach, M.C., Wiley, C.A. (2021) Data for: An Examination of Data Reuse Practices within Highly Cited Articles of Faculty at a Research University. University of Illinois at Urbana-Champaign https://doi.org/10.13012/B2IDB_XXXXX_V1
 
