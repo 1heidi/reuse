@@ -143,10 +143,10 @@ data reuse; data sharing; data management; data services; Scopus API
 #### Variables for output CSV file: a_summary_overall.csv:
 
 * **Discipline** = as above
-* **count_discip_response** =	 total count of responses per discipline
+* **count_discip_response** = total count of responses per discipline
 * **count_data_yes** = count of articles containing data per discipline
-* **percent_data_yes** =	 percent of articles containing data per discipline
-* **count_used** =	count of articles using others' data per discipline
+* **percent_data_yes** = percent of articles containing data per discipline
+* **count_used** =count of articles using others' data per discipline
 * **percent_used** = percent of articles using others' data per discipline
 
 #### Variables for output CSV file: b_summary_overall.csv:
@@ -162,18 +162,18 @@ data reuse; data sharing; data management; data services; Scopus API
 #### Variables for output CSV files (2) tallying importance: a_summary_importance.csv and a_summary_importance_UIUC_data_used.csv
 
 * **Discipline** = as above
-* **N** = total count of responses
+* **N** = total count of responses per discipline
 * **Extremely** = count of responses (code 5)
 * **Very** = count of responses (code 4)
 * **Somewhat** = count of responses (code 3)
 * **Not_very** = count of responses (code 2)
 * **Not_at_all** = count of responses (code 1)
-* **ave_importance** = average per discipline based on count per discipline
+* **ave_importance** = average per discipline based on N
 
-#### Variables for output CSV files (3) summarizing reasons selected that explain lack of reuse: a_summary_why_data_not_used.csv and a_summary_UIUC_why_data_not_used.csv, b_summary_why_data_not_used.csv
+#### Variables for output CSV files (3) summarizing reasons selected to explain lack of reuse: a_summary_why_data_not_used.csv and a_summary_UIUC_why_data_not_used.csv, b_summary_why_data_not_used.csv
 
 * **fix_explain** = explanations for why data was not used (see Q5 and Q9 in Survey_A.txt and Q3 in Survey_B.txt), note "fix" is appended because explanations were truncated in code to be more manageable
-* **sum** = sum of all responses that selected a given explanation
+* **sum** = count of all responses selected for a given explanation
 * **all_disciplines** = list of all disciplines represented in the responses that selected a given explanation
 
 #### Variables for output CSV file (1) summarizing reasons selected why the UIUC article was cited: b_summary_authors_cited_UIUC_article,csv
@@ -184,14 +184,12 @@ data reuse; data sharing; data management; data services; Scopus API
 
 #### Variables for output CSV files (4) aggregating write ins: a_write_ins_why_data_not_used.csv, a_write_ins_UIUC_why_data_not_used.csv, b_write_ins_why_data_not_used.csv, and b_write_ins_why_cited_UIUC_article.csv
 
-* all available as above
+* all variables as above
 
 ### DATA ANALYSIS
 
 #### Program used:
-R version 4.0.2 (2020-06-22)
-Platform: x86_64-apple-darwin17.0 (64-bit)
-Running under: macOS Catalina 10.15.7
+R version 4.0.2 (2020-06-22)Platform: x86_64-apple-darwin17.0 (64-bit)Running under: macOS Catalina 10.15.7
 * Attached base packages:
   * stats
   * graphics
@@ -204,8 +202,7 @@ Running under: macOS Catalina 10.15.7
   * forcats_0.5.0   
   * stringr_1.4.0   
   * dplyr_1.0.2     
-  * purrr_0.3.4    
-  * readr_1.4.0     
+  * purrr_0.3.4      * readr_1.4.0     
   * tidyr_1.1.2     
   * tibble_3.0.4    
   * ggplot2_3.3.2  
@@ -218,28 +215,28 @@ Running under: macOS Catalina 10.15.7
 * Input file(s): survey_a_results.csv
 * Output file(s): a_overall_summary.csv
 
-**STEP 2** Purpose: Analyze responses for data has been used, how important, access (results within commented code - no output), and then not used and reasons
+**STEP 2** Purpose: Analyze responses for data has been used, how important, access (results within commented code - no output), and then not used and reasons why
 * Package(s): tidyverse, stringr
 * Input file(s): survey_a_results.csv
 * Output file(s): a_summary_importance.csv, a_write_ins_why_data_not_used.csv, a_summary_why_data_not_used.csv
 
-**STEP 3** Purpose: Analyze did data was reused in the initial UIUC article, importance or why data not used, and access (results within commented code - no output)
+**STEP 3** Purpose: Analyze if data was reused in the initial UIUC article, importance or why data not used, and access (results within commented code - no output)
 * Package(s): tidyverse, stringr
 ##Input file(s): survey_a_results.csv
 ##Output file(s): a_summary_importance_UIUC_data_used.csv, a_write_ins_UIUC_why_data_not_used.csv,a_summary_UIUC_why_data_not_used.csv
 
 #### There are 3 scripts for analysis of Survey B:
 
-**STEP 1** Purpose: Determine counts of data from initial UIUC article used or not used, and access mechanisms (results within commnented code - no output)
+**STEP 1** Purpose: Determine counts of data from initial UIUC article used or not used, and access mechanisms (results within commented code - no output)
 * Package(s): tidyverse
 * Output file(s): b_overall_summary.csv
 
-**STEP 2** Purpose: Analyze why data has not been use
+**STEP 2** Purpose: Analyze why data has not been used
 * Package(s): tidyverse, stringr
 * Input file(s): survey_b_results.csv
 * Output file(s): b_write_ins_why_data_not_used.csv, b_summary_why_data_not_used.csv
 
-**STEP 3** Purpose: Analyze why UIUC articles where cited
+**STEP 3** Purpose: Analyze why UIUC articles were cited
 * Package(s): tidyverse, stringr
 * Input file(s): survey_b_results.csv
 * Output file(s): b_write_ins_why_cited_UIUC_article.csv, b_summary_authors_cited_UIUC_article.csv

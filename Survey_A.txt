@@ -1,0 +1,57 @@
+For the context of this survey, we are asking about the underlying data associated with your paper. By underlying data, we mean specifically data used to generate figures, graphs, and your research conclusions within "[Title]".
+
+1. Was there underlying data used in "[Title]"? If you choose No, your survey will end here.
+a. Yes
+b. No
+
+2. To your knowledge, has anyone, other than you and your co-authors, used any of the underlying data from the research described in your paper?
+a. Yes
+b. No
+
+3. [If Yes in 2] For the researchers that have used this data, how important do you think it was to their work?
+Extremely important / Very important / Somewhat important / Not very important / Not at all important  
+
+4. [if Yes in 2] How did you provide the underlying data in "[Title]"? (select all that apply)
+a. Journal supplement
+b. Online databases or data repository (please specify):
+c. Author’s / project’s website
+d. Via Box, Google Drive, Drop-Box, FTP
+e. Via email
+f. Used data contained in the paper
+g. Other (please specify):
+
+5. [If No in 2] If you were to conjecture, what reason(s) could explain why the data has not been used? (select all that apply)
+a. The data may not have addressed their specific research question (e.g., they may have needed to collect the data with their own experimental controls, conditions, instruments and/or materials, etc.)
+b. They may think it's important for their students' education to learn to collect their own data
+c. They may not be confident in the quality of our data
+d. We did not provide underlying data   
+e. It may have been too complicated to use our data due to legal or IP restrictions (e.g., such as data use agreements, or classified or restricted access data)
+f. They may not have wanted us to know that they are working on the same topic
+g. It may have been too difficult to understand or reformat our data
+h. Other (please specify):
+
+6. Did you or your co-authors use other authors' underlying data in the course of the research presented in "[Title]"?
+a. Yes
+b. No
+
+7. [If Yes in 6] How important was it to this work to have access to other data sources?
+Extremely important / Very important / Somewhat important / Not very important / Not at all important   
+
+8. [If Yes in 6] How did you obtain this data? (select all that apply)	
+a. Journal supplement
+b. Online databases or data repository (please specify):
+c. Author’s / project’s website
+d. Via Box, Google Drive, Drop-Box, FTP
+e. Via email
+f. Used data contained in the paper
+g. Other (please specify):
+
+9. [If No in 6] Why did you not use others' data? (select all that apply)
+a. Others' data did not address our specific research question (e.g. needed to collect the data with own experimental controls, conditions, instruments and/or materials, etc.)
+b. Our students collected the data
+c. It may have been to be completed to use others’ data due to legal or IP restrictions (e.g., such as data use agreements, or classified or restricted access data)
+d. Did not want anyone to know we’re working on the same topic
+e. It would have been too difficult to understand or reformat others’ data
+f. We are not confident about the quality of others’ data
+g. It was not provided to us
+h. Other (please specify):

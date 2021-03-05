@@ -1,0 +1,7 @@
+"Discipline","N","Extremely","Very","Somewhat","Not_very","Not_at_all","ave_importance"
+"CHEM",1,1,0,0,0,0,5
+"MEDI",4,2,1,1,0,0,4.25
+"COMP",2,0,1,1,0,0,3.5
+"ENVI",2,0,1,1,0,0,3.5
+"ENGI",1,0,1,0,0,0,4
+"PHYS",1,0,1,0,0,0,4

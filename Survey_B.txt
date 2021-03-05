@@ -1,0 +1,36 @@
+In your [year] paper "[articleTitle]", you cited the 2015 paper “[uiucarticleTitle]” published in [journal2]. For the context of this survey, we are asking about data from “[uiucarticleTitle]” for use in your above paper.
+
+By data, we mean specifically data used to generate figures, graphs, and your research conclusions within your paper.
+
+1. For your paper "[articleTitle]", did you use data from “[uiucarticleTitle]”?
+a. Yes
+b. No 
+
+2. [If Yes in 1] How was the data provided? (check all that apply)
+a. Journal supplement
+b. Online databases or data repository, (please specify):
+c. Author’s / project’s website
+d. Via Box, Google Drive, Drop-Box, FTP
+e. Via email
+f. Copied data from tables, figures, etc. in the paper
+g. Other, please specify:
+
+3. [If No in 1] Why did you opt not to use data from this paper?
+a. Data did not address our specific research question 
+b. It is important for my students’ education to learn to collect their own data
+c. It would be have too complicated to use the data due to data use agreements or other IP restrictions
+d. It would have been too difficult to understand or reformat the data
+e. We are not confident about the quality of the data
+f. We did not want them to know we’re working on the same topic
+g. We requested the data, but it was not provided to us
+h. We were unable to use the data because of issues related to documentation and organization
+i. There was no data in the paper
+j. Other, please specify:
+
+4. What are the reasons you cited the paper? (check all that apply)
+a. The paper cited provided general background for our work
+b. Our work is an extension of the cited paper
+c. Our work addresses a similar process but in a different context
+d. Our work used alternative or improved methodology
+e. Our paper validated the results of the cited paper
+f. Other, please specify:
