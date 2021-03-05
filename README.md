@@ -19,29 +19,29 @@ Data for: An Examination of Data Reuse Practices within Highly Cited Articles of
 ### AUTHORS AND AFFILIATIONS
 
 * Name: Heidi Imker
-* Organization/institution: University of Illinois at Urbana-Champaign
-* ORCID: 0000-0003-4748-7453
-* Email: imker@illinois.edu
+  * Organization/institution: University of Illinois at Urbana-Champaign
+  * ORCID: 0000-0003-4748-7453
+  * Email: imker@illinois.edu
 
 * Name: Hoa Luong
-* Organization/institution: University of Illinois at Urbana-Champaign
-* ORCID: 0000-0001-8054-9412
-* Email: hluong2@illinois.edu
+  * Organization/institution: University of Illinois at Urbana-Champaign
+  * ORCID: 0000-0001-8054-9412
+  * Email: hluong2@illinois.edu
 
 * Name: William H. Mischo
-* Organization/institution: University of Illinois at Urbana-Champaign
-* ORCID: 0000-0003-4234-9836
-* Email: w-mischo@illinois.edu
+  * Organization/institution: University of Illinois at Urbana-Champaign
+  * ORCID: 0000-0003-4234-9836
+  * Email: w-mischo@illinois.edu
 
 * Name: Mary C. Schlembach
-* Organization/institution: University of Illinois at Urbana-Champaign
-* ORCID: 0000-0002-3145-4828
-* Email: schlemba@illinois.edu
+  * Organization/institution: University of Illinois at Urbana-Champaign
+  * ORCID: 0000-0002-3145-4828
+  * Email: schlemba@illinois.edu
 
 * Name: Chris Wiley
-* Organization/institution: University of Illinois at Urbana-Champaign
-* ORCID: 0000-0003-0433-9151
-* Email: cawiley@illinois.edu
+  * Organization/institution: University of Illinois at Urbana-Champaign
+  * ORCID: 0000-0003-0433-9151
+  * Email: cawiley@illinois.edu
 
 ### LANGUAGE
 
