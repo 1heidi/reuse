@@ -58,6 +58,10 @@ Imker, H.J., Luong, H., Mischo, W.H., Schlembach, M.C., Wiley, C.A. (2021) "An E
 * The repository that accompanies the dataset is also available at:
 
   * https://github.com/1heidi/reuse
+  
+* The associated Scopus API scripts are available at:
+
+  * Mischo, William (2021): Scopus API Scripts for Data Reuse Project. University of Illinois at Urbana-Champaign. https://doi.org/10.13012/B2IDB-0988473_V1
 
 ### KEYWORDS
 
@@ -71,7 +75,6 @@ data reuse; data sharing; data management; data services; Scopus API
   * 1 Survey B file (TXT)
   * 14 data files (CSV) 
   * 6 R script files (R)
-  * X Scopus search scripts (X)
 
 * The initial input data file for SURVEY A is survey_a_results.csv. 
 * The initial input data file for SURVEY B is survey_b_results.csv. 
@@ -249,5 +252,5 @@ Running under: macOS Catalina 10.15.7
 * **Formally:** CC0 to facilitate ease-of-use
 * **Informally:** Please cite this dataset regardless. It matters to us, and provenance is important. The citation is:
 
-* Imker, H.J., Luong, H., Mischo, W.H., Schlembach, M.C., Wiley, C.A. (2021) Data for: An Examination of Data Reuse Practices within Highly Cited Articles of Faculty at a Research University. University of Illinois at Urbana-Champaign https://doi.org/10.13012/B2IDB_XXXXX_V1
+* Imker, H.J., Luong, H., Mischo, W.H., Schlembach, M.C., Wiley, C.A. (2021) Data for: An Examination of Data Reuse Practices within Highly Cited Articles of Faculty at a Research University. University of Illinois at Urbana-Champaign https://doi.org/10.13012/B2IDB-2087785_V1
 

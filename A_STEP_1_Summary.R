@@ -1,3 +1,4 @@
+
 ## STEP 1: Summary Across Disciplines
 ##Purpose: Determine counts of data w/in articles and used by discipline
 ##Package(s): tidyverse
@@ -23,4 +24,3 @@ a_data <- a %>%
 summary <- unique(select(a_data, Discipline, count_discip_response, count_data_yes, percent_data_yes, count_used, percent_used))
 
 write.csv(summary, "a_summary_overall.csv", row.names = FALSE)
-Catherine
