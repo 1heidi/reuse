@@ -89,8 +89,8 @@ data reuse; data sharing; data management; data services; Scopus API
   * Table 5 Survey A: A_STEP_3_Self_Use.R & a_summary_UIUC_why_data_not_used.csv
 
 * Additional files to aggregate "write-in" comments in Survey A (no tables)
- * A_STEP_2_Others_Use.R & a_write_ins_why_data_not_used.csv
- * A_STEP_3_Self_Use.R & a_write_ins_UIUC_why_data_not_used.csv
+  * A_STEP_2_Others_Use.R & a_write_ins_why_data_not_used.csv
+  * A_STEP_3_Self_Use.R & a_write_ins_UIUC_why_data_not_used.csv
 
 * Files necessary to create Tables for Survey B
   * Table 6 Survey B: B_STEP_1_Summary.R & b_overall_summary.csv
@@ -98,8 +98,8 @@ data reuse; data sharing; data management; data services; Scopus API
   * Table 8 Survey B: B_STEP_3_Why_Cite.R & b_summary_authors_cited_UIUC_article.csv
 
 * Additional files to aggregate "write-in" comments in Survey B (no tables)
- * B_STEP_2_Why_Not_Used.R & b_write_ins_why_data_not_used.csv
- * B_STEP_3_Why_Cite.R & b_write_ins_why_cited_UIUC_article.csv
+  * B_STEP_2_Why_Not_Used.R & b_write_ins_why_data_not_used.csv
+  * B_STEP_3_Why_Cite.R & b_write_ins_why_cited_UIUC_article.csv
 
 ### DATASET DESCRIPTION 
 
